@@ -80,8 +80,8 @@ $(function () {
         this.width = width;
         this.height = height;
         this.draw = function (ctx) {
-            var im = new Image(self.width, self. height);
-            im.src = self.img
+            var im = new Image(self.width, self.height);
+            im.src = self.img;
             ctx.drawImage(im, self.x, self.y, self.width, self.height);
             return self;
         }
